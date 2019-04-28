@@ -46,7 +46,17 @@ public class Disco {
 		superficie= (Math.PI)*((radioExterior*radioExterior)-(radioInterior*radioInterior));
 		return superficie;
 	}
+	@Override
+	public boolean equals(Object arg0) {
+		// TODO Auto-generated method stub
+		return super.equals(arg0);
+	}
 
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return super.hashCode();
+	}
 }
 
  
